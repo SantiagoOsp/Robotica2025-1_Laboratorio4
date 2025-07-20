@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/pincher_control/pincher_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/pincher_control/pincher_control.egg-info/dependency_links.txt
+writing entry points to ../../build/pincher_control/pincher_control.egg-info/entry_points.txt
+writing requirements to ../../build/pincher_control/pincher_control.egg-info/requires.txt
+writing top-level names to ../../build/pincher_control/pincher_control.egg-info/top_level.txt
+reading manifest file '../../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pincher_control/control_servo.py -> /home/santiago/ros2_ws/phantom_ws/build/pincher_control/build/lib/pincher_control
+running install
+running install_lib
+copying /home/santiago/ros2_ws/phantom_ws/build/pincher_control/build/lib/pincher_control/control_servo.py -> /home/santiago/ros2_ws/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control
+byte-compiling /home/santiago/ros2_ws/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control/control_servo.py to control_servo.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/santiago/ros2_ws/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/pincher_control/pincher_control.egg-info to /home/santiago/ros2_ws/phantom_ws/install/pincher_control/lib/python3.10/site-packages/pincher_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_servo script to /home/santiago/ros2_ws/phantom_ws/install/pincher_control/lib/pincher_control
+writing list of installed files to '/home/santiago/ros2_ws/phantom_ws/build/pincher_control/install.log'

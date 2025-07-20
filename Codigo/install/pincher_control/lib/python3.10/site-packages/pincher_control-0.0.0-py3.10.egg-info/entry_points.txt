@@ -1,0 +1,3 @@
+[console_scripts]
+control_servo = pincher_control.control_servo:main
+

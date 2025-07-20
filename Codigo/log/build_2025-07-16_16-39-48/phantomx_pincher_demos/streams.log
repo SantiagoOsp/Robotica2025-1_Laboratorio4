@@ -1,0 +1,45 @@
+[0.027s] Invoking command in '/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos': CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos:/home/santiago/ros2_ws/phantom_ws/install/pincher_control:/opt/ros/humble /usr/bin/cmake --build /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos -- -j4 -l4
+[0.144s] Invoked command in '/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos' returned '0': CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos:/home/santiago/ros2_ws/phantom_ws/install/pincher_control:/opt/ros/humble /usr/bin/cmake --build /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos -- -j4 -l4
+[0.145s] Invoking command in '/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos': CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos:/home/santiago/ros2_ws/phantom_ws/install/pincher_control:/opt/ros/humble /usr/bin/cmake --install /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos
+[0.155s] -- Install configuration: ""
+[0.155s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/launch
+[0.156s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/launch/demo_moon_camera_sensors.launch.py
+[0.156s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/launch/demo_orbit_pick_and_place.launch.py
+[0.156s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/launch/demo_rover_peg_in_hole.launch.py
+[0.156s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/rviz
+[0.156s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/rviz/demo_rover_peg_in_hole.rviz
+[0.156s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/rviz/demo_orbit_pick_and_place.rviz
+[0.156s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/rviz/demo_moon_camera_sensors.rviz
+[0.157s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/worlds
+[0.157s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/worlds/orbit_pick_and_place.sdf
+[0.157s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/worlds/moon_camera_sensors.sdf
+[0.157s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/worlds/rover_peg_in_hole.sdf
+[0.157s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/assets
+[0.157s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/assets/suzanne.stl
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/assets/module_holes.stl
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/demo_observe_scene.py
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/demo_peg_in_hole.py
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/demo_pick_and_place.py
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_collision_mesh.py
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_collision_primitive.py
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_gripper.py
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_joint_goal.py
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_pose_goal.py
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_servo.py
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/template.py
+[0.158s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/ament_index/resource_index/package_run_dependencies/phantomx_pincher_demos
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/ament_index/resource_index/parent_prefix_path/phantomx_pincher_demos
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/environment/ament_prefix_path.sh
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/environment/ament_prefix_path.dsv
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/environment/path.sh
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/environment/path.dsv
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/local_setup.bash
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/local_setup.sh
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/local_setup.zsh
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/local_setup.dsv
+[0.159s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/package.dsv
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/ament_index/resource_index/packages/phantomx_pincher_demos
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/cmake/phantomx_pincher_demosConfig.cmake
+[0.159s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/cmake/phantomx_pincher_demosConfig-version.cmake
+[0.160s] -- Up-to-date: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/package.xml
+[0.162s] Invoked command in '/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos' returned '0': CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos:/home/santiago/ros2_ws/phantom_ws/install/pincher_control:/opt/ros/humble /usr/bin/cmake --install /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos

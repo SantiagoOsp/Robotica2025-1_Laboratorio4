@@ -1,0 +1,48 @@
+[0.028s] Invoking command in '/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake /home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher -DCMAKE_INSTALL_PREFIX=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher
+[0.192s] -- The C compiler identification is GNU 11.4.0
+[0.299s] -- The CXX compiler identification is GNU 11.4.0
+[0.311s] -- Detecting C compiler ABI info
+[0.483s] -- Detecting C compiler ABI info - done
+[0.491s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.493s] -- Detecting C compile features
+[0.493s] -- Detecting C compile features - done
+[0.499s] -- Detecting CXX compiler ABI info
+[0.670s] -- Detecting CXX compiler ABI info - done
+[0.685s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.686s] -- Detecting CXX compile features
+[0.698s] -- Detecting CXX compile features - done
+[0.698s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.018s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.162s] -- Found phantomx_pincher_description: 1.0.0 (/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description/share/phantomx_pincher_description/cmake)
+[1.162s] -- Found phantomx_pincher_moveit_config: 1.0.0 (/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/cmake)
+[1.223s] /home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_description/scripts/xacro2urdf.bash: line 23: xacro: command not found
+[1.297s] /home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_description/scripts/xacro2sdf_direct.bash: line 7: xacro: command not found
+[1.311s] Created new /home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_description/phantomx_pincher/model.sdf
+[1.350s] /home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_moveit_config/scripts/xacro2srdf.bash: line 18: xacro: command not found
+[1.428s] -- Configuring done
+[1.434s] -- Generating done
+[1.437s] -- Build files have been written to: /home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher
+[1.446s] Invoked command in '/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher' returned '0': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake /home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher -DCMAKE_INSTALL_PREFIX=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher
+[1.449s] Invoking command in '/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake --build /home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher -- -j4 -l4
+[1.544s] Invoked command in '/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher' returned '0': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake --build /home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher -- -j4 -l4
+[1.548s] Invoking command in '/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake --install /home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher
+[1.565s] -- Install configuration: ""
+[1.565s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/launch
+[1.569s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/launch/gz.launch.py
+[1.569s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/launch/fake.launch.py
+[1.569s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/ament_index/resource_index/package_run_dependencies/phantomx_pincher
+[1.569s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/ament_index/resource_index/parent_prefix_path/phantomx_pincher
+[1.569s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/environment/ament_prefix_path.sh
+[1.569s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/environment/ament_prefix_path.dsv
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/environment/path.sh
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/environment/path.dsv
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/local_setup.bash
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/local_setup.sh
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/local_setup.zsh
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/local_setup.dsv
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/package.dsv
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/ament_index/resource_index/packages/phantomx_pincher
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/cmake/phantomx_pincherConfig.cmake
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/cmake/phantomx_pincherConfig-version.cmake
+[1.570s] -- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/package.xml
+[1.576s] Invoked command in '/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher' returned '0': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config:/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake --install /home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher

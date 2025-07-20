@@ -1,0 +1,9 @@
+/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/uninstall.dir
+/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/phantomx_pincher_demos_uninstall.dir
+/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/test.dir
+/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/edit_cache.dir
+/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/rebuild_cache.dir
+/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/list_install_components.dir
+/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/install.dir
+/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/install/local.dir
+/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos/CMakeFiles/install/strip.dir

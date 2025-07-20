@@ -1,0 +1,9 @@
+/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher_moveit_config/CMakeFiles/uninstall.dir
+/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher_moveit_config/CMakeFiles/phantomx_pincher_moveit_config_uninstall.dir
+/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher_moveit_config/CMakeFiles/test.dir
+/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher_moveit_config/CMakeFiles/edit_cache.dir
+/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher_moveit_config/CMakeFiles/rebuild_cache.dir
+/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher_moveit_config/CMakeFiles/list_install_components.dir
+/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher_moveit_config/CMakeFiles/install.dir
+/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher_moveit_config/CMakeFiles/install/local.dir
+/home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher_moveit_config/CMakeFiles/install/strip.dir

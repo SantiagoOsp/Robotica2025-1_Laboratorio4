@@ -1,0 +1,3 @@
+/home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_description/scripts/xacro2urdf.bash: line 23: xacro: command not found
+/home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_description/scripts/xacro2sdf_direct.bash: line 7: xacro: command not found
+/home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_moveit_config/scripts/xacro2srdf.bash: line 18: xacro: command not found

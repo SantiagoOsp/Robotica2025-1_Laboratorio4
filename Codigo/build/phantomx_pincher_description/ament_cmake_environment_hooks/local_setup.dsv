@@ -1,0 +1,4 @@
+source;share/phantomx_pincher_description/environment/ament_prefix_path.sh
+source;share/phantomx_pincher_description/environment/path.sh
+source;share/phantomx_pincher_description/environment/phantomx_pincher_description.sh
+source;share/phantomx_pincher_description/environment/phantomx_pincher_description.dsv

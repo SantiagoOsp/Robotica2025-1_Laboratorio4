@@ -1,0 +1,3 @@
+[submodule "Codigo/src/phantomx_pincher"]
+	path = Codigo/src/phantomx_pincher
+	url = https://github.com/snt-spacer/phantomx_pincher.git

@@ -1,0 +1,90 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_description
+-- Install configuration: ""
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/lib/phantomx_pincher_description/xacro2sdf_direct.bash
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/lib/phantomx_pincher_description/xacro2sdf.bash
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/lib/phantomx_pincher_description/xacro2urdf.bash
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/config
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/config/initial_joint_positions.yaml
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/launch
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/launch/view_gz.launch.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/launch/view.launch.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/collision
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/collision/finger.stl
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/collision/task_board.stl
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual/task_board.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual/finger.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual/gripper_base.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual/phantomx_pincher_mount.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual/f10.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual/f2.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual/f3.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual/f4.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual/ax12.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/meshes/visual/task_board_module_phantomx_pincher_mount.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/model.config
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/model.sdf
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/thumbnails
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/phantomx_pincher/thumbnails/0.png
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/collision
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/collision/finger.stl
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/collision/task_board.stl
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual/task_board.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual/finger.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual/gripper_base.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual/phantomx_pincher_mount.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual/f10.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual/f2.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual/f3.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual/f4.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual/ax12.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/meshes/visual/task_board_module_phantomx_pincher_mount.dae
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/rviz
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/rviz/view.rviz
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/urdf
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/urdf/phantomx_pincher.ros2_control
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/urdf/phantomx_pincher_arm.xacro
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/urdf/phantomx_pincher.urdf.xacro
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/urdf/phantomx_pincher_hardware.xacro
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/urdf/phantomx_pincher_utils.xacro
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/urdf/phantomx_pincher_mounting.xacro
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/urdf/phantomx_pincher.urdf
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/urdf/phantomx_pincher_inertial.xacro
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/urdf/phantomx_pincher.gazebo
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/environment/phantomx_pincher_description.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/environment/phantomx_pincher_description.sh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/ament_index/resource_index/package_run_dependencies/phantomx_pincher_description
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/ament_index/resource_index/parent_prefix_path/phantomx_pincher_description
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/environment/ament_prefix_path.sh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/environment/ament_prefix_path.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/environment/path.sh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/environment/path.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/local_setup.bash
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/local_setup.sh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/local_setup.zsh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/local_setup.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/package.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/ament_index/resource_index/packages/phantomx_pincher_description
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/cmake/phantomx_pincher_descriptionConfig.cmake
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/cmake/phantomx_pincher_descriptionConfig-version.cmake
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/package.xml

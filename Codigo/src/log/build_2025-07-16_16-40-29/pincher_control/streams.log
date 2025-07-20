@@ -1,0 +1,43 @@
+[2.599s] Invoking command in '/home/santiago/ros2_ws/phantom_ws/src/pincher_control': PYTHONPATH=/home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pincher_control build --build-base /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build install --record /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/install.log --single-version-externally-managed install_data
+[3.179s] running egg_info
+[3.179s] creating ../build/pincher_control/pincher_control.egg-info
+[3.183s] writing ../build/pincher_control/pincher_control.egg-info/PKG-INFO
+[3.183s] writing dependency_links to ../build/pincher_control/pincher_control.egg-info/dependency_links.txt
+[3.186s] writing entry points to ../build/pincher_control/pincher_control.egg-info/entry_points.txt
+[3.186s] writing requirements to ../build/pincher_control/pincher_control.egg-info/requires.txt
+[3.187s] writing top-level names to ../build/pincher_control/pincher_control.egg-info/top_level.txt
+[3.187s] writing manifest file '../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+[3.187s] reading manifest file '../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+[3.187s] writing manifest file '../build/pincher_control/pincher_control.egg-info/SOURCES.txt'
+[3.187s] running build
+[3.193s] running build_py
+[3.193s] creating /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build
+[3.193s] creating /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build/lib
+[3.193s] creating /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build/lib/pincher_control
+[3.193s] copying pincher_control/__init__.py -> /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build/lib/pincher_control
+[3.194s] copying pincher_control/control.py -> /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build/lib/pincher_control
+[3.194s] copying pincher_control/ventana.py -> /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build/lib/pincher_control
+[3.194s] copying pincher_control/control_servo.py -> /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build/lib/pincher_control
+[3.194s] running install
+[3.194s] running install_lib
+[3.194s] creating /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages/pincher_control
+[3.195s] copying /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build/lib/pincher_control/__init__.py -> /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages/pincher_control
+[3.198s] copying /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build/lib/pincher_control/control.py -> /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages/pincher_control
+[3.198s] copying /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build/lib/pincher_control/ventana.py -> /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages/pincher_control
+[3.198s] copying /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build/lib/pincher_control/control_servo.py -> /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages/pincher_control
+[3.199s] byte-compiling /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages/pincher_control/__init__.py to __init__.cpython-310.pyc
+[3.199s] byte-compiling /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages/pincher_control/control.py to control.cpython-310.pyc
+[3.202s] byte-compiling /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages/pincher_control/ventana.py to ventana.cpython-310.pyc
+[3.202s] byte-compiling /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages/pincher_control/control_servo.py to control_servo.cpython-310.pyc
+[3.214s] running install_data
+[3.214s] creating /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/share/ament_index
+[3.214s] creating /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/share/ament_index/resource_index
+[3.215s] creating /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/share/ament_index/resource_index/packages
+[3.215s] copying resource/pincher_control -> /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/share/ament_index/resource_index/packages
+[3.222s] copying package.xml -> /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/share/pincher_control
+[3.224s] running install_egg_info
+[3.228s] Copying ../build/pincher_control/pincher_control.egg-info to /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages/pincher_control-0.0.0-py3.10.egg-info
+[3.228s] running install_scripts
+[3.298s] Installing control_servo script to /home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/pincher_control
+[3.299s] writing list of installed files to '/home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/install.log'
+[3.375s] Invoked command in '/home/santiago/ros2_ws/phantom_ws/src/pincher_control' returned '0': PYTHONPATH=/home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/santiago/ros2_ws/phantom_ws/src/install/pincher_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pincher_control build --build-base /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/build install --record /home/santiago/ros2_ws/phantom_ws/src/build/pincher_control/install.log --single-version-externally-managed install_data

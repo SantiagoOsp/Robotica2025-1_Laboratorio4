@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found phantomx_pincher: 1.0.0 (/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher/share/phantomx_pincher/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_demos
+-- Install configuration: ""
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/launch
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/launch/demo_moon_camera_sensors.launch.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/launch/demo_orbit_pick_and_place.launch.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/launch/demo_rover_peg_in_hole.launch.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/rviz
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/rviz/demo_rover_peg_in_hole.rviz
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/rviz/demo_orbit_pick_and_place.rviz
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/rviz/demo_moon_camera_sensors.rviz
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/worlds
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/worlds/orbit_pick_and_place.sdf
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/worlds/moon_camera_sensors.sdf
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/worlds/rover_peg_in_hole.sdf
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/assets
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/assets/suzanne.stl
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/assets/module_holes.stl
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/demo_observe_scene.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/demo_peg_in_hole.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/demo_pick_and_place.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_collision_mesh.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_collision_primitive.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_gripper.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_joint_goal.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_pose_goal.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/ex_servo.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/lib/phantomx_pincher_demos/template.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/ament_index/resource_index/package_run_dependencies/phantomx_pincher_demos
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/ament_index/resource_index/parent_prefix_path/phantomx_pincher_demos
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/environment/ament_prefix_path.sh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/environment/ament_prefix_path.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/environment/path.sh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/environment/path.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/local_setup.bash
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/local_setup.sh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/local_setup.zsh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/local_setup.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/package.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/ament_index/resource_index/packages/phantomx_pincher_demos
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/cmake/phantomx_pincher_demosConfig.cmake
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/cmake/phantomx_pincher_demosConfig-version.cmake
+-- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_demos/share/phantomx_pincher_demos/package.xml

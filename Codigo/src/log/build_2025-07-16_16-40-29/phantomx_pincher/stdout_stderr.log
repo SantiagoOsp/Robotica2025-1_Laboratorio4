@@ -1,0 +1,42 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found phantomx_pincher_description: 1.0.0 (/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_description/share/phantomx_pincher_description/cmake)
+-- Found phantomx_pincher_moveit_config: 1.0.0 (/home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/cmake)
+/home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_description/scripts/xacro2urdf.bash: line 23: xacro: command not found
+/home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_description/scripts/xacro2sdf_direct.bash: line 7: xacro: command not found
+Created new /home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_description/phantomx_pincher/model.sdf
+/home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_moveit_config/scripts/xacro2srdf.bash: line 18: xacro: command not found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/santiago/ros2_ws/phantom_ws/src/build/phantomx_pincher
+-- Install configuration: ""
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/launch
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/launch/gz.launch.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/launch/fake.launch.py
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/ament_index/resource_index/package_run_dependencies/phantomx_pincher
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/ament_index/resource_index/parent_prefix_path/phantomx_pincher
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/environment/ament_prefix_path.sh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/environment/ament_prefix_path.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/environment/path.sh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/environment/path.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/local_setup.bash
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/local_setup.sh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/local_setup.zsh
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/local_setup.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/package.dsv
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/ament_index/resource_index/packages/phantomx_pincher
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/cmake/phantomx_pincherConfig.cmake
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/cmake/phantomx_pincherConfig-version.cmake
+-- Installing: /home/santiago/ros2_ws/phantom_ws/src/install/phantomx_pincher/share/phantomx_pincher/package.xml

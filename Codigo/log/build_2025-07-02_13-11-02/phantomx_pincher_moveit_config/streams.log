@@ -1,0 +1,60 @@
+[0.010s] Invoking command in '/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake /home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_moveit_config -DCMAKE_INSTALL_PREFIX=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config
+[0.087s] -- The C compiler identification is GNU 11.4.0
+[0.169s] -- The CXX compiler identification is GNU 11.4.0
+[0.185s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.329s] -- Detecting C compile features
+[0.330s] -- Detecting C compile features - done
+[0.330s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.447s] -- Detecting CXX compile features
+[0.447s] -- Detecting CXX compile features - done
+[0.448s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.623s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.727s] -- Found phantomx_pincher_description: 1.0.0 (/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description/cmake)
+[0.810s] -- Configuring done
+[0.812s] -- Generating done
+[0.814s] -- Build files have been written to: /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config
+[0.821s] Invoked command in '/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake /home/santiago/ros2_ws/phantom_ws/src/phantomx_pincher/phantomx_pincher_moveit_config -DCMAKE_INSTALL_PREFIX=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config
+[0.823s] Invoking command in '/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake --build /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config -- -j4 -l4
+[0.875s] Invoked command in '/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake --build /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config -- -j4 -l4
+[0.875s] Invoking command in '/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake --install /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config
+[0.886s] -- Install configuration: ""
+[0.886s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config
+[0.886s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config/controllers_effort.yaml
+[0.886s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config/servo_real.yaml
+[0.886s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config/phantomx_pincher.srdf
+[0.886s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config/joint_limits.yaml
+[0.886s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config/kinematics.yaml
+[0.886s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config/moveit_controller_manager_gripper_trajectory.yaml
+[0.886s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config/servo.yaml
+[0.886s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config/ompl_planning.yaml
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config/controllers_position.yaml
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/config/moveit_controller_manager_gripper_command.yaml
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/launch
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/launch/move_group_external_control.launch.py
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/launch/move_group.launch.py
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/rviz
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/rviz/moveit.rviz
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/srdf
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/srdf/phantomx_pincher.srdf
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/srdf/phantomx_pincher.xacro
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/srdf/phantomx_pincher.srdf.xacro
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/ament_index/resource_index/package_run_dependencies/phantomx_pincher_moveit_config
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/ament_index/resource_index/parent_prefix_path/phantomx_pincher_moveit_config
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/environment/ament_prefix_path.sh
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/environment/ament_prefix_path.dsv
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/environment/path.sh
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/environment/path.dsv
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/local_setup.bash
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/local_setup.sh
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/local_setup.zsh
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/local_setup.dsv
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/package.dsv
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/ament_index/resource_index/packages/phantomx_pincher_moveit_config
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/cmake/phantomx_pincher_moveit_configConfig.cmake
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/cmake/phantomx_pincher_moveit_configConfig-version.cmake
+[0.887s] -- Installing: /home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_moveit_config/share/phantomx_pincher_moveit_config/package.xml
+[0.890s] Invoked command in '/home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description:/opt/ros/humble IGN_GAZEBO_RESOURCE_PATH=/home/santiago/ros2_ws/phantom_ws/install/phantomx_pincher_description/share/phantomx_pincher_description /usr/bin/cmake --install /home/santiago/ros2_ws/phantom_ws/build/phantomx_pincher_moveit_config
