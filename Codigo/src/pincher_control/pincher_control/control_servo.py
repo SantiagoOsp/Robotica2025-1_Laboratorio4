@@ -66,15 +66,9 @@ class DynamixelGUI:
         connection_frame.pack(pady=10)
        
         tk.Label(connection_frame, text="Santiago Ospina", bg='#f0f0f0').grid(row=0, column=0, padx=5)
-        # self.port_entry = tk.Entry(connection_frame, width=15)
-        # self.port_entry.insert(0, _name)
-        # self.port_entry.grid(row=0, column=1, padx=5)
-       
+        
         tk.Label(connection_frame, text="Juan Diego Tovar", bg='#f0f0f0').grid(row=0, column=2, padx=5)
-        # self.baudrate_entry = tk.Entry(connection_frame, width=10)
-        # self.baudrate_entry.insert(0, str(self.baudrate))
-        # self.baudrate_entry.grid(row=0, column=3, padx=5)
-       
+      
         # Botón de conexión
         self.connect_button = tk.Button(
             connection_frame,
@@ -106,76 +100,6 @@ class DynamixelGUI:
         )
         self.status_label.pack()
        
-        # # Frame para posiciones actuales
-        # positions_frame = tk.Frame(self.root, bg='#f0f0f0', relief='sunken', bd=2)
-        # positions_frame.pack(pady=15, padx=20, fill='x')
-       
-        # # Título del panel de posiciones
-        # positions_title = tk.Label(
-        #     positions_frame,
-        #     text="Posiciones Actuales en Tiempo Real",
-        #     bg='#f0f0f0',
-        #     font=("Arial", 12, "bold"),
-        #     fg='#333333'
-        # )
-        # positions_title.pack(pady=5)
-       
-        # # Frame para las posiciones individuales
-        # individual_positions_frame = tk.Frame(positions_frame, bg='#f0f0f0')
-        # individual_positions_frame.pack(pady=5, fill='x')
-       
-        # # Crear etiquetas para cada motor
-        # self.position_labels = {}
-        # for i in range(5):
-        #     motor_frame = tk.Frame(individual_positions_frame, bg='#ffffff', relief='raised', bd=1)
-        #     motor_frame.pack(side='left', padx=5, pady=2, fill='x', expand=True)
-           
-        #     # Nombre del motor
-        #     motor_name = tk.Label(
-        #         motor_frame,
-        #         text=f"Motor {i+1}",
-        #         bg='#ffffff',
-        #         font=("Arial", 10, "bold"),
-        #         fg='#333333'
-        #     )
-        #     motor_name.pack(pady=2)
-           
-        #     # Posición en valor Dynamixel
-        #     dynamixel_label = tk.Label(
-        #         motor_frame,
-        #         text="Valor: --",
-        #         bg='#ffffff',
-        #         font=("Arial", 9),
-        #         fg='#666666'
-        #     )
-        #     dynamixel_label.pack()
-           
-        #     # Posición en grados
-        #     degrees_label = tk.Label(
-        #         motor_frame,
-        #         text="Grados: --",
-        #         bg='#ffffff',
-        #         font=("Arial", 9),
-        #         fg='#666666'
-        #     )
-        #     degrees_label.pack()
-           
-        #     self.position_labels[i] = {
-        #         'dynamixel': dynamixel_label,
-        #         'degrees': degrees_label
-        #     }
-       
-        # Botón para toggle de actualización automática
-        # self.toggle_update_button = tk.Button(
-        #     positions_frame,
-        #     text="Iniciar Actualización Automática",
-        #     command=self.toggle_position_updates,
-        #     bg='#FF9800',
-        #     fg='white',
-        #     font=("Arial", 10, "bold")
-        # )
-        # self.toggle_update_button.pack(pady=5)
-   
     def get_script_directory(self):
         """Obtener el directorio donde se encuentra el script actual"""
         try:
@@ -343,35 +267,6 @@ class DynamixelGUI:
             # Configurar peso de las columnas
             parent.columnconfigure(i, weight=1)
            
-            # # Espacio para imagen - ALTURA 3X ANCHO (180x540)
-            # image_frame = tk.Frame(config_frame, bg='#e0e0e0', width=180, height=350)
-            # image_frame.pack(pady=10, padx=10)
-            # image_frame.pack_propagate(False)
-           
-            # # Intentar cargar imagen
-            # img_path = image_paths.get(config_name, "")
-            # photo_image = self.load_image(img_path)
-           
-            # if photo_image:
-            #     # Mostrar imagen real
-            #     img_label = tk.Label(
-            #         image_frame,
-            #         image=photo_image,
-            #         bg='#e0e0e0'
-            #     )
-            #     img_label.image = photo_image  # Mantener referencia
-            #     img_label.pack(expand=True)
-            # else:
-            #     # Mostrar placeholder si no se puede cargar la imagen - TAMAÑO AUMENTADO
-            #     img_label = tk.Label(
-            #         image_frame,
-            #         text=f"Imagen\n{config_name}",
-            #         bg='#e0e0e0',
-            #         fg='#666666',
-            #         font=("Arial", 10)
-            #     )
-            #     img_label.pack(expand=True)
-           
             # Etiqueta con el nombre de la configuración
             name_label = tk.Label(
                 config_frame,
@@ -453,12 +348,6 @@ class DynamixelGUI:
             self.connect_button.config(text="Desconectar", bg='#f0f0f0')
             self.status_label.config(text="Estado: Conectado", fg='#f0f0f0')
            
-            # # Leer posiciones iniciales
-            # self.read_current_positions()
-           
-            # Iniciar actualización automática de posiciones
-            # self.start_position_updates()
-           
             messagebox.showinfo("Éxito", "Conectado correctamente a los servomotores")
            
         except Exception as e:
@@ -481,15 +370,6 @@ class DynamixelGUI:
            
             self.connected = False
            
-            # # Actualizar UI
-            # self.connect_button.config(text="Conectar", bg='#f0f0f0')
-            # self.status_label.config(text="Estado: Desconectado", fg='#f0f0f0')
-           
-            # Limpiar posiciones
-            # for i in range(5):
-            #     self.position_labels[i]['dynamixel'].config(text="Valor: --")
-            #     self.position_labels[i]['degrees'].config(text="Grados: --")
-               
         except Exception as e:
             messagebox.showerror("Error", f"Error al desconectar: {str(e)}")
    
@@ -582,60 +462,6 @@ class DynamixelGUI:
             self.root.after(0, lambda: messagebox.showerror(
                 "Error", f"Error durante el movimiento: {str(e)}"
             ))
-   
-    # def read_current_positions(self):
-    #     if not self.connected:
-    #         return
-       
-    #     try:
-    #         positions = []
-    #         for i, dxl_id in enumerate(self.dxl_ids):
-    #             pos, _, _ = self.packet.read2ByteTxRx(self.port, dxl_id, ADDR_PRESENT_POSITION)
-    #             positions.append(pos)
-               
-    #             # Actualizar etiquetas individuales
-    #             degrees = self.dynamixel_value_to_degrees(pos)
-    #             self.position_labels[i]['dynamixel'].config(text=f"Valor: {pos}")
-    #             self.position_labels[i]['degrees'].config(text=f"Grados: {degrees}°")
-               
-    #     except Exception as e:
-    #         print(f"Error leyendo posiciones: {e}")
-    #         # En caso de error, mostrar valores desconocidos
-    #         for i in range(5):
-    #             self.position_labels[i]['dynamixel'].config(text="Valor: Error")
-    #             self.position_labels[i]['degrees'].config(text="Grados: Error")
-   
-    # def start_position_updates(self):
-    #     """Inicia la actualización automática de posiciones"""
-    #     if self.connected and not self.position_update_active:
-    #         self.position_update_active = True
-    #         self.toggle_update_button.config(
-    #             text="Detener Actualización Automática",
-    #             bg='#f0f0f0' 
-    #         )
-    #         self.update_positions_loop()
-   
-    # def stop_position_updates(self):
-    #     """Detiene la actualización automática de posiciones"""
-    #     self.position_update_active = False
-    #     self.toggle_update_button.config(
-    #         text="Iniciar Actualización Automática",
-    #         bg='#f0f0f0'
-    #     )
-   
-    # def toggle_position_updates(self):
-    #     """Alterna entre iniciar y detener la actualización automática"""
-    #     if self.position_update_active:
-    #         self.stop_position_updates()
-    #     else:
-    #         self.start_position_updates()
-   
-    # def update_positions_loop(self):
-    #     """Bucle para actualizar posiciones automáticamente"""
-    #     if self.position_update_active and self.connected:
-    #         self.read_current_positions()
-    #         # Programar próxima actualización en 500ms
-    #         self.root.after(500, self.update_positions_loop)
    
     def on_closing(self):
         # Detener actualización de posiciones
